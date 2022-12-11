@@ -15,6 +15,7 @@
 (function() {
     'use strict';
     let btn = document.createElement("button");
+    btn.className = "btn-top";
     btn.innerHTML = "返回顶部";
     btn.style.position = "fixed";
     btn.style.bottom = "10px";
