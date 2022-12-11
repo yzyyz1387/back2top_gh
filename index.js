@@ -38,7 +38,6 @@
         } else {
             btn.style.display = "none";
         }
-        console.log(top)
         if (top === 0 && !user) {
             clearInterval(timer)
         }
